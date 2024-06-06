@@ -30,6 +30,8 @@ BluetoothやNFCなど、デバイスの通信機能を利用する場合。こ�
 - Plugin : Flutterアプリからデバイスのハードウェア（カメラ、マイク、GPS、センサーなど）にアクセスしたい場合にプラグインを使用
 
 
+
+
 ### それぞれの Channel の違い
 - Method Cannel : Flutter と Native 間で非同期でデータを取得処理
 
@@ -40,6 +42,20 @@ BluetoothやNFCなど、デバイスの通信機能を利用する場合。こ�
 
 
 ![alt text](assets/method.png)
+
+
+### Pigeon 
+スキーマを定義すると、通信するデータやmethodの型を各Platformごとに簡単に自動生成してくれる
+
+```sh
+$ flutter pub run pigeon コマンド
+```
+
+### PlatformView
+ネイティブプラットフォームのViewをFlutter に埋め込むための機能。これにより、Flutterアプリ内でネイティブのUI コンポーネントを使用できる。
+
+
+
 
 
 ### 実装
