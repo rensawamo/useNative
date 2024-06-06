@@ -42,11 +42,20 @@ BluetoothやNFCなど、デバイスの通信機能を利用する場合。こ�
 ![alt text](assets/method.png)
 
 
+### 実装
+
+1 . Flutter の main.dartにネイティブの実装を行うコードを記載
+
+2 . Android側  android/app/src/main/kotlin/com/example/all_sdk/MainActivity.kt  にコードを追加
+
+3 . iOS側  ios/Runner/AppDelegate.swift にコードを追加
 
 ### 上記 Method Cannel  の実装の確認
  
-#### iOS 
+### iOS 
 ![alt text](assets/ios.png)
 
+
+### Android 
 ![alt text](assets/android.png)
 
