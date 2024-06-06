@@ -30,17 +30,23 @@ BluetoothやNFCなど、デバイスの通信機能を利用する場合。こ�
 - Plugin : Flutterアプリからデバイスのハードウェア（カメラ、マイク、GPS、センサーなど）にアクセスしたい場合にプラグインを使用
 
 
-
-
-
 ### それぞれの Channel の違い
 - Method Cannel : Flutter と Native 間で非同期でデータを取得処理
 
-![alt text](assets/method.png)
 
 - Event Channel : Nativeから Flutter へ 一方向の通信
 
 - BasicMessageChannel : 双方向
 
 
+![alt text](assets/method.png)
+
+
+
+### 上記 Method Cannel  の実装の確認
+ 
+#### iOS 
+![alt text](assets/ios.png)
+
+![alt text](assets/android.png)
 
